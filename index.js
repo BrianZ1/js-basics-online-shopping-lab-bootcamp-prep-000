@@ -72,11 +72,17 @@ function removeFromCart(item) {
     return "That item is not in your cart.";
   }
   else{
-    cart.splice()
+    cart.splice(i, 1);
+    return cart;
   }
-  
 }
 
 function placeOrder(cardNumber) {
   // write your code here
+  if(cardNumber === null){
+    return "Sorry, we don't have a credit card on file for your.";
+  }
+  else{
+    
+  }
 }
