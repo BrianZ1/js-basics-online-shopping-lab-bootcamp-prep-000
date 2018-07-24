@@ -11,6 +11,12 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ Object new_item = {}
+ 
+ 
+ 
+ new_item["itemName"] = item
+ new_item[itemPrice] = 
  
 }
 
