@@ -37,7 +37,7 @@ function viewCart() {
         if(i === 0){
           return message += `${cart[i].itemName} at $${cart[i].itemPrice}.`
         }
-        else if(i === cart.length - 1){
+        else if(i === cart.length){
           return message += `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
         }
         else{
