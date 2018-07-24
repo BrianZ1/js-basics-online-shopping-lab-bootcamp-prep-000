@@ -16,7 +16,7 @@ function addToCart(item) {
  
  
  new_item["itemName"] = item;
- new_item[itemPrice] = number + 1;
+ new_item["itemPrice"] = number + 1;
  
  cart.push(new_item);
  
