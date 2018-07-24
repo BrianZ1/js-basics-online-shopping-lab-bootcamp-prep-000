@@ -35,15 +35,16 @@ function viewCart() {
       for(let i = 0; i < cart.length; i++){
         
         if(i === 0){
-          return message += `${cart[i].itemName} at $${cart[i].itemPrice}.`
+          message += `${cart[i].itemName} at $${cart[i].itemPrice}.`
         }
-        else if(i === cart.length){
-          return message += `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
+        else if(i === cart.length - 1){
+          message += `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
         }
         else{
           message += `${cart[i].itemName} at $${cart[i].itemPrice}, `
         }
       }
+      return message;
   }
 }
 
